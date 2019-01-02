@@ -975,6 +975,17 @@ module.exports = function (it) {
 
 /***/ }),
 
+/***/ "3bf0":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Test_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("a25d");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Test_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Test_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Test_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "3c3b":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2001,6 +2012,13 @@ module.exports = Object.create || function create(O, Properties) {
   return Properties === undefined ? result : dPs(result, Properties);
 };
 
+
+/***/ }),
+
+/***/ "a25d":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -3183,7 +3201,51 @@ var Badge_component = normalizeComponent(
 
 Badge_component.options.__file = "Badge.vue"
 /* harmony default export */ var Badge = (Badge_component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"0c9cbcd8-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Test.vue?vue&type=template&id=4826a734&
+var Testvue_type_template_id_4826a734_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._v("\n  Test.vue\n\n")])}
+var Testvue_type_template_id_4826a734_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Test.vue?vue&type=template&id=4826a734&
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Test.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var Testvue_type_script_lang_js_ = ({});
+// CONCATENATED MODULE: ./src/components/Test.vue?vue&type=script&lang=js&
+ /* harmony default export */ var components_Testvue_type_script_lang_js_ = (Testvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/components/Test.vue?vue&type=style&index=0&lang=css&
+var Testvue_type_style_index_0_lang_css_ = __webpack_require__("3bf0");
+
+// CONCATENATED MODULE: ./src/components/Test.vue
+
+
+
+
+
+
+/* normalize component */
+
+var Test_component = normalizeComponent(
+  components_Testvue_type_script_lang_js_,
+  Testvue_type_template_id_4826a734_render,
+  Testvue_type_template_id_4826a734_staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+Test_component.options.__file = "Test.vue"
+/* harmony default export */ var Test = (Test_component.exports);
 // CONCATENATED MODULE: ./src/components/index.js
+
 
 
 
@@ -3194,7 +3256,8 @@ Badge_component.options.__file = "Badge.vue"
 var Components = {
   TopicComponent: TopicComponent,
   ExternalLink: ExternalLink,
-  Badge: Badge
+  Badge: Badge,
+  Test: Test
 };
 
 keys_default()(Components).forEach(function (name) {
