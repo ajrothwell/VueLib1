@@ -2,9 +2,11 @@
   "name": "VueLib1",
   "version": "0.1.0",
   "private": true,
+  "main": "./dist/MyLib.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name myLib ./src/components/index.js"
   },
   "dependencies": {
     "vue": "^2.5.21"
