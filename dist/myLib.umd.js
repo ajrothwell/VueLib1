@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("vue"));
+		module.exports = factory();
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["myLib"] = factory(require("vue"));
+		exports["myLib"] = factory();
 	else
-		root["myLib"] = factory(root["Vue"]);
-})((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE__8bbf__) {
+		root["myLib"] = factory();
+})((typeof self !== 'undefined' ? self : this), function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -1589,13 +1589,6 @@ module.exports = __webpack_require__("584a").Object.keys;
 
 /***/ }),
 
-/***/ "8bbf":
-/***/ (function(module, exports) {
-
-module.exports = __WEBPACK_EXTERNAL_MODULE__8bbf__;
-
-/***/ }),
-
 /***/ "8e60":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2297,9 +2290,6 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
-var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
-
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es7.array.includes.js
 var es7_array_includes = __webpack_require__("6762");
 
@@ -2833,27 +2823,33 @@ var Test_component = normalizeComponent(
 Test_component.options.__file = "Test.vue"
 /* harmony default export */ var Test = (Test_component.exports);
 // CONCATENATED MODULE: ./src/components/index.js
+// import Vue from "vue";
+
+
+
+ // const Components = {
+//   TopicComponent,
+//   ExternalLink,
+//   Badge,
+//   Test
+// }
+// Object.keys(Components).forEach(name => {
+//   Vue.component(name, Components[name]);
+// })
+// export default Components;
 
 
 
 
 
-var Components = {
-  TopicComponent: TopicComponent,
-  ExternalLink: ExternalLink,
-  Badge: Badge,
-  Test: Test // Object.keys(Components).forEach(name => {
-  //   Vue.component(name, Components[name]);
-  // })
-
-};
-/* harmony default export */ var components = (Components); // export { TopicComponent };
-// export { ExternalLink };
-// export { Badge };
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
+/* concated harmony reexport TopicComponent */__webpack_require__.d(__webpack_exports__, "TopicComponent", function() { return TopicComponent; });
+/* concated harmony reexport ExternalLink */__webpack_require__.d(__webpack_exports__, "ExternalLink", function() { return ExternalLink; });
+/* concated harmony reexport Badge */__webpack_require__.d(__webpack_exports__, "Badge", function() { return Badge; });
+/* concated harmony reexport Test */__webpack_require__.d(__webpack_exports__, "Test", function() { return Test; });
 
 
-/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (components);
+/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (/* Cannot get final name for export "default" in "./src/components/index.js" (known exports: , known reexports: TopicComponent ExternalLink Badge Test) */ undefined);
 
 
 
