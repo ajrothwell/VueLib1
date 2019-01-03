@@ -5,20 +5,25 @@ import Badge from './Badge.vue';
 import Test from './Test.vue';
 
 
-// const Components = {
-//   TopicComponent,
-//   ExternalLink,
-//   Badge,
-//   Test
-// }
+const Components = {
+  TopicComponent,
+  ExternalLink,
+  Badge,
+  Test
+}
 
 // Object.keys(Components).forEach(name => {
 //   Vue.component(name, Components[name]);
 // })
 
-// export default Components;
+export default Components;
 
-export { TopicComponent };
-export { ExternalLink };
-export { Badge };
-export { Test };
+// export TopicComponent;
+// export ExternalLink;
+// export Badge;
+// export Test;
+
+// export { TopicComponent };
+// export { ExternalLink };
+// export { Badge };
+// export { Test };

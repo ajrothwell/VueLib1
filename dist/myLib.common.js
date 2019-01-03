@@ -2818,29 +2818,28 @@ Test_component.options.__file = "Test.vue"
 
 
 
- // const Components = {
-//   TopicComponent,
-//   ExternalLink,
-//   Badge,
-//   Test
-// }
-// Object.keys(Components).forEach(name => {
-//   Vue.component(name, Components[name]);
-// })
-// export default Components;
 
+var Components = {
+  TopicComponent: TopicComponent,
+  ExternalLink: ExternalLink,
+  Badge: Badge,
+  Test: Test // Object.keys(Components).forEach(name => {
+  //   Vue.component(name, Components[name]);
+  // })
 
-
-
-
+};
+/* harmony default export */ var components = (Components); // export TopicComponent;
+// export ExternalLink;
+// export Badge;
+// export Test;
+// export { TopicComponent };
+// export { ExternalLink };
+// export { Badge };
+// export { Test };
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
-/* concated harmony reexport TopicComponent */__webpack_require__.d(__webpack_exports__, "TopicComponent", function() { return TopicComponent; });
-/* concated harmony reexport ExternalLink */__webpack_require__.d(__webpack_exports__, "ExternalLink", function() { return ExternalLink; });
-/* concated harmony reexport Badge */__webpack_require__.d(__webpack_exports__, "Badge", function() { return Badge; });
-/* concated harmony reexport Test */__webpack_require__.d(__webpack_exports__, "Test", function() { return Test; });
 
 
-/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (/* Cannot get final name for export "default" in "./src/components/index.js" (known exports: , known reexports: TopicComponent ExternalLink Badge Test) */ undefined);
+/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (components);
 
 
 
