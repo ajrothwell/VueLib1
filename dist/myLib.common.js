@@ -3192,15 +3192,14 @@ var Badge_component = normalizeComponent(
 
 Badge_component.options.__file = "Badge.vue"
 /* harmony default export */ var Badge = (Badge_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"0c9cbcd8-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Test.vue?vue&type=template&id=4826a734&
-var Testvue_type_template_id_4826a734_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._v("\n  Test.vue\n\n")])}
-var Testvue_type_template_id_4826a734_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"0c9cbcd8-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Test.vue?vue&type=template&id=dd5db1ec&
+var Testvue_type_template_id_dd5db1ec_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._v("\n  This is the template from Test.vue\n")])}
+var Testvue_type_template_id_dd5db1ec_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Test.vue?vue&type=template&id=4826a734&
+// CONCATENATED MODULE: ./src/components/Test.vue?vue&type=template&id=dd5db1ec&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Test.vue?vue&type=script&lang=js&
-//
 //
 //
 //
@@ -3224,8 +3223,8 @@ var Testvue_type_style_index_0_lang_css_ = __webpack_require__("3bf0");
 
 var Test_component = normalizeComponent(
   components_Testvue_type_script_lang_js_,
-  Testvue_type_template_id_4826a734_render,
-  Testvue_type_template_id_4826a734_staticRenderFns,
+  Testvue_type_template_id_dd5db1ec_render,
+  Testvue_type_template_id_dd5db1ec_staticRenderFns,
   false,
   null,
   null,

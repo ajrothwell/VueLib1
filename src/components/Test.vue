@@ -1,7 +1,6 @@
 <template>
   <div>
-    Test.vue
-
+    This is the template from Test.vue
   </div>
 </template>
 
