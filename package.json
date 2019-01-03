@@ -1,5 +1,6 @@
 {
   "name": "VueLib1",
+  "sideEffects": false,
   "version": "0.1.0",
   "private": true,
   "main": "./src/components/index.js",
