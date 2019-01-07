@@ -4,3 +4,5 @@ This was for testing whether a vue library could be created with Vue CLI 3 and i
 That seems to fail because of what this says:
 
 https://github.com/vuejs/vue-cli/issues/1065
+
+It was used with the repo "rollup-webpack-test" - https://github.com/ajrothwell/rollup-webpack-test
