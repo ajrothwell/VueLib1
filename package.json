@@ -3,7 +3,7 @@
   "sideEffects": false,
   "version": "0.1.0",
   "private": true,
-  "main": "./dist/myLib.umd.min.js",
+  "main": "./dist/myLib.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
